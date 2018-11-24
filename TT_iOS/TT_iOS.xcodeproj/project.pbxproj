@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		5A5CDDFE8EBAF323ED5DE11A /* Pods_TT_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */; };
 		C204748721A987AC005742C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204748621A987AC005742C0 /* AppDelegate.swift */; };
-		C204748921A987AC005742C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204748821A987AC005742C0 /* MainViewController.swift */; };
-		C204748C21A987AC005742C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748A21A987AC005742C0 /* Main.storyboard */; };
+		C204748921A987AC005742C0 /* WeeklyTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204748821A987AC00574 2C0 /* WeeklyTaskViewController.swift */; };
+		C204748C21A987AC005742C0 /* WeeklyTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748A21A987AC005742C0 /* WeeklyTask.storyboard */; };
 		C204748E21A987AE005742C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C204748D21A987AE005742C0 /* Assets.xcassets */; };
 		C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748F21A987AE005742C0 /* LaunchScreen.storyboard */; };
 		CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26723E21A9EF6100C15683 /* TaskCell.swift */; };
 		CB26724121A9EF6100C15683 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26723F21A9EF6100C15683 /* TaskCell.xib */; };
 		CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26724221A9EF7600C15683 /* TodoCell.swift */; };
 		CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26724321A9EF7600C15683 /* TodoCell.xib */; };
+		C204749F21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */; };
+		C20474A221A9F449005742C0 /* Weekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20474A121A9F449005742C0 /* Weekly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,8 @@
 		60E938F749BA1D5A9AE5E8B4 /* Pods-TT_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C204748321A987AC005742C0 /* TT_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TT_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C204748621A987AC005742C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C204748821A987AC005742C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		C204748B21A987AC005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C204748821A987AC005742C0 /* WeeklyTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTaskViewController.swift; sourceTree = "<group>"; };
+		C204748B21A987AC005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/WeeklyTask.storyboard; sourceTree = "<group>"; };
 		C204748D21A987AE005742C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C204749021A987AE005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C204749221A987AE005742C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +35,8 @@
 		CB26723F21A9EF6100C15683 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 		CB26724221A9EF7600C15683 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		CB26724321A9EF7600C15683 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		C20474A121A9F449005742C0 /* Weekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly.swift; sourceTree = "<group>"; };
 		D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,9 +82,9 @@
 		C204748521A987AC005742C0 /* TT_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C20474A021A9F439005742C0 /* Model */,
+				C204749D21A9F2AC005742C0 /* WeeklyTask */,
 				C204748621A987AC005742C0 /* AppDelegate.swift */,
-				C204748821A987AC005742C0 /* MainViewController.swift */,
-				C204748A21A987AC005742C0 /* Main.storyboard */,
 				C204748D21A987AE005742C0 /* Assets.xcassets */,
 				C204748F21A987AE005742C0 /* LaunchScreen.storyboard */,
 				C204749221A987AE005742C0 /* Info.plist */,
@@ -90,6 +94,24 @@
 				CB26724321A9EF7600C15683 /* TodoCell.xib */,
 			);
 			path = TT_iOS;
+			sourceTree = "<group>";
+		};
+		C204749D21A9F2AC005742C0 /* WeeklyTask */ = {
+			isa = PBXGroup;
+			children = (
+				C204748A21A987AC005742C0 /* WeeklyTask.storyboard */,
+				C204748821A987AC005742C0 /* WeeklyTaskViewController.swift */,
+				C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */,
+			);
+			path = WeeklyTask;
+			sourceTree = "<group>";
+		};
+		C20474A021A9F439005742C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C20474A121A9F449005742C0 /* Weekly.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D7B3E8031EDA46424CF502C0 /* Frameworks */ = {
@@ -165,6 +187,7 @@
 				C204748E21A987AE005742C0 /* Assets.xcassets in Resources */,
 				CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */,
 				C204748C21A987AC005742C0 /* Main.storyboard in Resources */,
+				C204748C21A987AC005742C0 /* WeeklyTask.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,18 +241,22 @@
 				CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */,
 				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
 				CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */,
+				C20474A221A9F449005742C0 /* Weekly.swift in Sources */,
+				C204748921A987AC005742C0 /* WeeklyTaskViewController.swift in Sources */,
+				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
+				C204749F21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C204748A21A987AC005742C0 /* Main.storyboard */ = {
+		C204748A21A987AC005742C0 /* WeeklyTask.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C204748B21A987AC005742C0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = WeeklyTask.storyboard;
 			sourceTree = "<group>";
 		};
 		C204748F21A987AE005742C0 /* LaunchScreen.storyboard */ = {
