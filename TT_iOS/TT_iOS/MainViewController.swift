@@ -7,15 +7,16 @@
 //
 
 import UIKit
-import YNExpandableCell
+import ExpandableCell
 
 class MainViewController: UIViewController {
-
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
     }
 
-
 }
-

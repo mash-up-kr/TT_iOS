@@ -1,16 +1,16 @@
 PODS:
-  - YNExpandableCell (1.1.0)
+  - ExpandableCell (1.2.3)
 
 DEPENDENCIES:
-  - YNExpandableCell
+  - ExpandableCell
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - YNExpandableCell
+    - ExpandableCell
 
 SPEC CHECKSUMS:
-  YNExpandableCell: 47bf7cff721aa535c0e9e1163bf22b5573441bb4
+  ExpandableCell: 99a7993b6b61af6a9b5821f67a772d6402ffcda2
 
-PODFILE CHECKSUM: 443e77b319064999766d0a51dcac525afbfdc09b
+PODFILE CHECKSUM: c6aa3bc9fa866b7e4a552f34aec5b8871b1c1e52
 
 COCOAPODS: 1.5.3

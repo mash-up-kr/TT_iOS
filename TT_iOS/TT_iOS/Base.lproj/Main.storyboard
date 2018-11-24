@@ -17,12 +17,58 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="과제 리스트" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRj-s5-b7f">
+                                <rect key="frame" x="20" y="40" width="335" height="28"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Imh-Hk-0dG" customClass="ExpandableTableView" customModule="ExpandableCell">
+                                <rect key="frame" x="0.0" y="88" width="375" height="579"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5V7-Xt-z4g">
+                                <rect key="frame" x="287" y="579" width="68" height="68"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5V7-Xt-z4g" secondAttribute="height" multiplier="1:1" id="BXt-hS-iXK"/>
+                                    <constraint firstAttribute="width" constant="68" id="ibD-q8-G5z"/>
+                                    <constraint firstAttribute="height" constant="68" id="yQD-Rt-chN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="34"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JRj-s5-b7f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="F9W-yO-G9w"/>
+                            <constraint firstItem="Imh-Hk-0dG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JUC-7W-Wji"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5V7-Xt-z4g" secondAttribute="bottom" constant="20" id="LZb-Jh-2ro"/>
+                            <constraint firstItem="Imh-Hk-0dG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="W7W-29-UHa"/>
+                            <constraint firstItem="JRj-s5-b7f" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="YSw-vH-rWQ"/>
+                            <constraint firstItem="Imh-Hk-0dG" firstAttribute="top" secondItem="JRj-s5-b7f" secondAttribute="bottom" constant="20" id="dBm-fq-kvZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5V7-Xt-z4g" secondAttribute="trailing" constant="20" id="k9T-zj-PoC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JRj-s5-b7f" secondAttribute="trailing" constant="20" id="wUt-FS-rGi"/>
+                            <constraint firstItem="Imh-Hk-0dG" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wkb-Jw-DSK"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="JRj-s5-b7f" id="XBD-4D-vLz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
         </scene>
     </scenes>
 </document>

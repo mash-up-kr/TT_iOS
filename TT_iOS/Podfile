@@ -7,6 +7,6 @@ target 'TT_iOS' do
 
   # Pods for TT_iOS
 
-pod 'YNExpandableCell'
+pod 'ExpandableCell'
 
 end

@@ -13,6 +13,10 @@
 		C204748C21A987AC005742C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748A21A987AC005742C0 /* Main.storyboard */; };
 		C204748E21A987AE005742C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C204748D21A987AE005742C0 /* Assets.xcassets */; };
 		C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748F21A987AE005742C0 /* LaunchScreen.storyboard */; };
+		CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26723E21A9EF6100C15683 /* TaskCell.swift */; };
+		CB26724121A9EF6100C15683 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26723F21A9EF6100C15683 /* TaskCell.xib */; };
+		CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26724221A9EF7600C15683 /* TodoCell.swift */; };
+		CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26724321A9EF7600C15683 /* TodoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		C204748D21A987AE005742C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C204749021A987AE005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C204749221A987AE005742C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB26723E21A9EF6100C15683 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		CB26723F21A9EF6100C15683 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
+		CB26724221A9EF7600C15683 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		CB26724321A9EF7600C15683 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
 		D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -76,6 +84,10 @@
 				C204748D21A987AE005742C0 /* Assets.xcassets */,
 				C204748F21A987AE005742C0 /* LaunchScreen.storyboard */,
 				C204749221A987AE005742C0 /* Info.plist */,
+				CB26723E21A9EF6100C15683 /* TaskCell.swift */,
+				CB26723F21A9EF6100C15683 /* TaskCell.xib */,
+				CB26724221A9EF7600C15683 /* TodoCell.swift */,
+				CB26724321A9EF7600C15683 /* TodoCell.xib */,
 			);
 			path = TT_iOS;
 			sourceTree = "<group>";
@@ -148,8 +160,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB26724121A9EF6100C15683 /* TaskCell.xib in Resources */,
 				C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */,
 				C204748E21A987AE005742C0 /* Assets.xcassets in Resources */,
+				CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */,
 				C204748C21A987AC005742C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -164,11 +178,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/YNExpandableCell/YNExpandableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNExpandableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -201,7 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C204748921A987AC005742C0 /* MainViewController.swift in Sources */,
+				CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */,
 				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
+				CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +298,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -336,6 +353,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
