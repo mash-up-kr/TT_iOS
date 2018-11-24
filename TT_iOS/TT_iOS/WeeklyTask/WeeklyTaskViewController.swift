@@ -24,18 +24,30 @@ class WeeklyTaskViewController: UIViewController {
         super.viewDidLoad()
         
         //dummy
-        weeklys.append(Weekly(date: "11/25", day: "월"))
-        weeklys.append(Weekly(date: " ", day: "화"))
-        weeklys.append(Weekly(date: " ", day: "수"))
-        weeklys.append(Weekly(date: " ", day: "목"))
-        weeklys.append(Weekly(date: " ", day: "금"))
-        weeklys.append(Weekly(date: " ", day: "토"))
+        weeklys.append(Weekly(date: "11/25", day: "월", today: true))
+        weeklys.append(Weekly(date: " ", day: "화", today: false))
+        weeklys.append(Weekly(date: " ", day: "수", today: false))
+        weeklys.append(Weekly(date: " ", day: "목", today: false))
+        weeklys.append(Weekly(date: " ", day: "금", today: false))
+        weeklys.append(Weekly(date: "12/01", day: "토", today: false))
         
         initialzeView()
     }
 
     private func initialzeView() {
-        
+//        let flowLayout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
+//
+//        flowLayout.sectionInset = UIEdgeInsets.zero
+//        flowLayout.minimumInteritemSpacing = 0
+//        flowLayout.minimumLineSpacing = 6
+//        flowLayout.scrollDirection = .horizontal
+//
+//        let itemHeight = collectionView.frame.size.height
+//        let itemWidth = itemHeight
+//
+//        flowLayout.itemSize = CGSize(width: itemWidth, height: itemHeight)
+//
+//        collectionView.collectionViewLayout = flowLayout
     }
 }
 
@@ -52,6 +64,12 @@ extension WeeklyTaskViewController: UICollectionViewDataSource {
         
         cell.date.text = weeklys[indexPath.item].date
         cell.day.text = weeklys[indexPath.item].day
+        
+        let isToday = weeklys[indexPath.item].today
+        
+        if isToday == true {
+            cell.today.isHidden  = false
+        }
         
         return cell
     }

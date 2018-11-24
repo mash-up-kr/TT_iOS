@@ -12,5 +12,6 @@ class WeeklyTaskCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var date: UILabel!
     @IBOutlet weak var day: UILabel!
+    @IBOutlet weak var today: UIImageView!
     
 }

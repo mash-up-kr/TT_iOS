@@ -13,12 +13,12 @@
 		C204748C21A987AC005742C0 /* WeeklyTask.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748A21A987AC005742C0 /* WeeklyTask.storyboard */; };
 		C204748E21A987AE005742C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C204748D21A987AE005742C0 /* Assets.xcassets */; };
 		C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748F21A987AE005742C0 /* LaunchScreen.storyboard */; };
+		C204749F21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */; };
+		C20474A221A9F449005742C0 /* Weekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20474A121A9F449005742C0 /* Weekly.swift */; };
 		CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26723E21A9EF6100C15683 /* TaskCell.swift */; };
 		CB26724121A9EF6100C15683 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26723F21A9EF6100C15683 /* TaskCell.xib */; };
 		CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26724221A9EF7600C15683 /* TodoCell.swift */; };
 		CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26724321A9EF7600C15683 /* TodoCell.xib */; };
-		C204749F21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */; };
-		C20474A221A9F449005742C0 /* Weekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20474A121A9F449005742C0 /* Weekly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +31,12 @@
 		C204748D21A987AE005742C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C204749021A987AE005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C204749221A987AE005742C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTaskCollectionViewCell.swift; sourceTree = "<group>"; };
+		C20474A121A9F449005742C0 /* Weekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly.swift; sourceTree = "<group>"; };
 		CB26723E21A9EF6100C15683 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		CB26723F21A9EF6100C15683 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 		CB26724221A9EF7600C15683 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		CB26724321A9EF7600C15683 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
-		C204749E21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyTaskCollectionViewCell.swift; sourceTree = "<group>"; };
-		C20474A121A9F449005742C0 /* Weekly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weekly.swift; sourceTree = "<group>"; };
 		D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -186,7 +186,7 @@
 				C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */,
 				C204748E21A987AE005742C0 /* Assets.xcassets in Resources */,
 				CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */,
-				C204748C21A987AC005742C0 /* Main.storyboard in Resources */,
+				C204748C21A987AC005742C0 /* WeeklyTask.storyboard in Resources */,
 				C204748C21A987AC005742C0 /* WeeklyTask.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C204748921A987AC005742C0 /* MainViewController.swift in Sources */,
+				C204748921A987AC005742C0 /* WeeklyTaskViewController.swift in Sources */,
 				CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */,
 				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
 				CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */,

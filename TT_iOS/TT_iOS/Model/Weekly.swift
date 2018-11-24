@@ -12,4 +12,5 @@ import Foundation
 struct Weekly {
     let date: String
     let day: String
+    let today: Bool
 }
