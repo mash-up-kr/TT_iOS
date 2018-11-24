@@ -10,6 +10,8 @@ import UIKit
 
 class TodoCell: UITableViewCell {
     
+     static let ID = "TodoCell"
+    
     @IBOutlet var checkBtn: UIButton!
     @IBOutlet var todoLabel: UILabel!
     

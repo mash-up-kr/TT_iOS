@@ -10,6 +10,8 @@ import UIKit
 
 class TaskCell: UITableViewCell {
     
+     static let ID = "TaskCell"
+    
     @IBOutlet var progressView: UIProgressView!
     @IBOutlet var subjectColorView: UIView!
     @IBOutlet var deadlineLabel: UILabel!
