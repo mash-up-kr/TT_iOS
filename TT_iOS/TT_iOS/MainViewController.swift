@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import YNExpandableCell
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

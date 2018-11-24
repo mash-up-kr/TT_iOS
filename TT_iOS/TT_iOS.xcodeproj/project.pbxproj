@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A5CDDFE8EBAF323ED5DE11A /* Pods_TT_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */; };
 		C204748721A987AC005742C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204748621A987AC005742C0 /* AppDelegate.swift */; };
-		C204748921A987AC005742C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204748821A987AC005742C0 /* ViewController.swift */; };
+		C204748921A987AC005742C0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C204748821A987AC005742C0 /* MainViewController.swift */; };
 		C204748C21A987AC005742C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748A21A987AC005742C0 /* Main.storyboard */; };
 		C204748E21A987AE005742C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C204748D21A987AE005742C0 /* Assets.xcassets */; };
 		C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C204748F21A987AE005742C0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B82069AC1BE5A937F35F596 /* Pods-TT_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		60E938F749BA1D5A9AE5E8B4 /* Pods-TT_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS.release.xcconfig"; sourceTree = "<group>"; };
 		C204748321A987AC005742C0 /* TT_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TT_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C204748621A987AC005742C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C204748821A987AC005742C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C204748821A987AC005742C0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C204748B21A987AC005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C204748D21A987AE005742C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C204749021A987AE005742C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C204749221A987AE005742C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5CDDFE8EBAF323ED5DE11A /* Pods_TT_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C13162591087D676D125664 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B82069AC1BE5A937F35F596 /* Pods-TT_iOS.debug.xcconfig */,
+				60E938F749BA1D5A9AE5E8B4 /* Pods-TT_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C204747A21A987AC005742C0 = {
 			isa = PBXGroup;
 			children = (
 				C204748521A987AC005742C0 /* TT_iOS */,
 				C204748421A987AC005742C0 /* Products */,
+				8C13162591087D676D125664 /* Pods */,
+				D7B3E8031EDA46424CF502C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +71,21 @@
 			isa = PBXGroup;
 			children = (
 				C204748621A987AC005742C0 /* AppDelegate.swift */,
-				C204748821A987AC005742C0 /* ViewController.swift */,
+				C204748821A987AC005742C0 /* MainViewController.swift */,
 				C204748A21A987AC005742C0 /* Main.storyboard */,
 				C204748D21A987AE005742C0 /* Assets.xcassets */,
 				C204748F21A987AE005742C0 /* LaunchScreen.storyboard */,
 				C204749221A987AE005742C0 /* Info.plist */,
 			);
 			path = TT_iOS;
+			sourceTree = "<group>";
+		};
+		D7B3E8031EDA46424CF502C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C204749521A987AE005742C0 /* Build configuration list for PBXNativeTarget "TT_iOS" */;
 			buildPhases = (
+				CE7CB419282ECFE4B4B54600 /* [CP] Check Pods Manifest.lock */,
 				C204747F21A987AC005742C0 /* Sources */,
 				C204748021A987AC005742C0 /* Frameworks */,
 				C204748121A987AC005742C0 /* Resources */,
+				06918C363B361C25F2B82F08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +156,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06918C363B361C25F2B82F08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YNExpandableCell/YNExpandableCell.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YNExpandableCell.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE7CB419282ECFE4B4B54600 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TT_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C204747F21A987AC005742C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C204748921A987AC005742C0 /* ViewController.swift in Sources */,
+				C204748921A987AC005742C0 /* MainViewController.swift in Sources */,
 				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,9 +345,11 @@
 		};
 		C204749621A987AE005742C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B82069AC1BE5A937F35F596 /* Pods-TT_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F465AG84W;
 				INFOPLIST_FILE = TT_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +364,11 @@
 		};
 		C204749721A987AE005742C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E938F749BA1D5A9AE5E8B4 /* Pods-TT_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2F465AG84W;
 				INFOPLIST_FILE = TT_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
