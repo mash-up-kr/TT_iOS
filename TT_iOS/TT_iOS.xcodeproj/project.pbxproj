@@ -19,6 +19,8 @@
 		CB26724121A9EF6100C15683 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26723F21A9EF6100C15683 /* TaskCell.xib */; };
 		CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB26724221A9EF7600C15683 /* TodoCell.swift */; };
 		CB26724521A9EF7600C15683 /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB26724321A9EF7600C15683 /* TodoCell.xib */; };
+		CB7298AF21AA17A50093CB39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7298AE21AA17A50093CB39 /* Main.storyboard */; };
+		CB7298B121AA17FA0093CB39 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7298B021AA17FA0093CB39 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		CB26723F21A9EF6100C15683 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 		CB26724221A9EF7600C15683 /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
 		CB26724321A9EF7600C15683 /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		CB7298AE21AA17A50093CB39 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CB7298B021AA17FA0093CB39 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D2E9A5C1A433031BC96C9140 /* Pods_TT_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TT_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,8 @@
 				CB26723F21A9EF6100C15683 /* TaskCell.xib */,
 				CB26724221A9EF7600C15683 /* TodoCell.swift */,
 				CB26724321A9EF7600C15683 /* TodoCell.xib */,
+				CB7298AE21AA17A50093CB39 /* Main.storyboard */,
+				CB7298B021AA17FA0093CB39 /* MainViewController.swift */,
 			);
 			path = TT_iOS;
 			sourceTree = "<group>";
@@ -182,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB7298AF21AA17A50093CB39 /* Main.storyboard in Resources */,
 				CB26724121A9EF6100C15683 /* TaskCell.xib in Resources */,
 				C204749121A987AE005742C0 /* LaunchScreen.storyboard in Resources */,
 				C204748E21A987AE005742C0 /* Assets.xcassets in Resources */,
@@ -243,6 +250,7 @@
 				CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */,
 				C20474A221A9F449005742C0 /* Weekly.swift in Sources */,
 				C204748921A987AC005742C0 /* WeeklyTaskViewController.swift in Sources */,
+				CB7298B121AA17FA0093CB39 /* MainViewController.swift in Sources */,
 				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
 				C204749F21A9F2FC005742C0 /* WeeklyTaskCollectionViewCell.swift in Sources */,
 			);

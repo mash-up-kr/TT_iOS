@@ -71,7 +71,7 @@ extension MainViewController: ExpandableDelegate {
     func expandableTableView(_ expandableTableView: ExpandableTableView, didSelectExpandedRowAt indexPath: IndexPath) {
         print("didSelectExpandedRowAt:\(indexPath)")
     }
-
+    
     func expandableTableView(_ expandableTableView: ExpandableTableView, expandedCell: UITableViewCell, didSelectExpandedRowAt indexPath: IndexPath) {
         if let cell = expandedCell as? TaskCell {
             print("\(cell.taskNameLabel.text ?? "")")
