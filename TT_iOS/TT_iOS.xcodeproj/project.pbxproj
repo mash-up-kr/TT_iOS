@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		308927AC21B165BA000EC0AF /* AddTaskToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308927AB21B165BA000EC0AF /* AddTaskToDoCell.swift */; };
 		3099CC6621A9EE9E003B5D94 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099CC6521A9EE9E003B5D94 /* AddTaskViewController.swift */; };
 		3099CC6A21A9F0AF003B5D94 /* AddTaskStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3099CC6921A9F0AF003B5D94 /* AddTaskStoryboard.storyboard */; };
 		3099CC6C21AA02AC003B5D94 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3099CC6B21AA02AC003B5D94 /* TaskModel.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0B82069AC1BE5A937F35F596 /* Pods-TT_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TT_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TT_iOS/Pods-TT_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		308927AB21B165BA000EC0AF /* AddTaskToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskToDoCell.swift; sourceTree = "<group>"; };
 		3099CC6521A9EE9E003B5D94 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 		3099CC6921A9F0AF003B5D94 /* AddTaskStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddTaskStoryboard.storyboard; sourceTree = "<group>"; };
 		3099CC6B21AA02AC003B5D94 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				3099CC6921A9F0AF003B5D94 /* AddTaskStoryboard.storyboard */,
+				308927AB21B165BA000EC0AF /* AddTaskToDoCell.swift */,
 				3099CC6521A9EE9E003B5D94 /* AddTaskViewController.swift */,
 				3099CC6D21AA04F9003B5D94 /* AddToDoCell.swift */,
 				3099CC6B21AA02AC003B5D94 /* TaskModel.swift */,
@@ -268,6 +271,7 @@
 				C204748921A987AC005742C0 /* WeeklyTaskViewController.swift in Sources */,
 				CB26724021A9EF6100C15683 /* TaskCell.swift in Sources */,
 				C204748721A987AC005742C0 /* AppDelegate.swift in Sources */,
+				308927AC21B165BA000EC0AF /* AddTaskToDoCell.swift in Sources */,
 				CB26724421A9EF7600C15683 /* TodoCell.swift in Sources */,
 				C20474A221A9F449005742C0 /* Weekly.swift in Sources */,
 				C204748921A987AC005742C0 /* WeeklyTaskViewController.swift in Sources */,
