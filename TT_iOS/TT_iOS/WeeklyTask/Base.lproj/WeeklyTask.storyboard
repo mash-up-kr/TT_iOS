@@ -223,25 +223,15 @@
             </objects>
             <point key="canvasLocation" x="992.79999999999995" y="26.53673163418291"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--Main-->
         <scene sceneID="sOQ-yF-EHo">
             <objects>
-                <viewControllerPlaceholder id="D9p-1k-QsI" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Main" id="D9p-1k-QsI" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="wA1-5Q-30z"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LWW-7j-cZ4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="836" y="480"/>
-        </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="KKS-cH-Ozr">
-            <objects>
-                <viewControllerPlaceholder id="TqB-ue-TSK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="R3z-S5-HtQ"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MT4-cY-AuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="604" y="645"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="QtO-cW-RVJ">
@@ -249,13 +239,13 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sw8-VT-sI2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gZq-fi-feM">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="f3f-dN-ahB"/>
-                        <segue destination="D9p-1k-QsI" kind="relationship" relationship="viewControllers" id="x1V-nq-ap2"/>
-                        <segue destination="TqB-ue-TSK" kind="relationship" relationship="viewControllers" id="0ES-VG-9EH"/>
+                        <segue destination="D9p-1k-QsI" kind="relationship" relationship="viewControllers" id="AdV-QA-uMo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSP-MZ-ikF" userLabel="First Responder" sceneMemberID="firstResponder"/>

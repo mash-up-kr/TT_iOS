@@ -61,6 +61,8 @@ class AddTaskViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
         
         cell.toDoLabel.text = toDoListCellData[indexPath.row]
+        
+        return cell
     }
     
     
@@ -79,6 +81,10 @@ class AddTaskViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     @IBAction func addBtn(_ sender: UIButton) {
         self.taskData = TaskModel(taskName: taskNameTextField.text ?? "", taskDay: taskDayTextField.text ?? "", taskContent: taskContentTextView.text ?? "" , toDoList: [""])
+    }
+    
+    @IBAction func dismissBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     /*
